@@ -1,0 +1,16 @@
+public class TesterPerulangan {
+    public static void main(String[] args) {
+        Perulangan1 fe = new Perulangan1();
+        fe.nilai = 7;
+        fe.hitungPerulangan();
+        
+        Perulangan2 ferdi = new Perulangan2();
+        ferdi.nilai = 2;
+        ferdi.nilai1 = 3;
+        ferdi.hitungPerulangan2();
+        
+        Perulangan3 nan = new Perulangan3();
+        nan.nilai1 = 120;
+        nan.hitungPerulangan3();
+    }   
+}
