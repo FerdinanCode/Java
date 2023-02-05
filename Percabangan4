@@ -1,0 +1,57 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kelas5b;
+
+/**
+ *
+ * @author LAB04-03
+ */
+public class Percabangan4 {
+    public static void main(String[] args) {
+        int bulan = 3;
+        switch (bulan) {
+            case 1 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Januari");
+                break;
+            case 2 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Februari");
+                break;
+            case 3 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Maret");
+                break;
+            case 4 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "April");
+                break;
+            case 5 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Mei");
+                break;
+            case 6 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Juni");
+                break;
+            case 7 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Juli");
+                break;
+            case 8 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Agustus");
+                break;
+            case 9 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "September");
+                break;
+            case 10 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Oktober ");
+                break;
+            case 11 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Nofember");
+                break;
+            case 12 :
+                System.out.println("Bulan ke-" + "adalah bulan " + "Desember");
+                break;
+            default :
+                System.out.println("Bulan tidak dikenal");
+        }
+    }
+    
+}
