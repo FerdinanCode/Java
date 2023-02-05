@@ -1,0 +1,37 @@
+public class Tester Binatang {
+    public static void main(String[] args) {
+        Herbivora herbivora = new Herbivora();
+        herbivora.setId(111);
+        herbivora.setNama(" Sapi ");
+        herbivora.setBerat (300);
+        herbivora.setTinggi (105);
+        herbivora.setUmur(5);
+        herbivora.setMakananUtama("Rumput");
+        herbivora.setHabitat(" Padang Rumput");
+        
+        herbivora.herbivoraApa();
+        
+        
+        Karnivora karnivora = new Karnivora();
+        karnivora.setId(211);
+        karnivora.setNama(" Singa ");
+        karnivora.setBerat (250);
+        karnivora.setTinggi (80);
+        karnivora.setUmur(3);
+        karnivora.setMakananUtama("Daging");
+        karnivora.setHabitat(" Hutan");
+        
+        karnivora.karnivoraApa();
+        
+        Omnivora omnivora = new Omnivora();
+        omnivora.setId(311);
+        omnivora.setNama(" Tikus ");
+        omnivora.setBerat (350);
+        omnivora.setTinggi (5);
+        omnivora.setUmur(1);
+        omnivora.setMakananUtama("Daging dan Tumbuhan");
+        omnivora.setHabitat(" Gorong-gorong");
+        
+        karnivora.karnivoraApa();  
+    }
+}
