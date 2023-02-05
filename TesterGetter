@@ -1,0 +1,36 @@
+public class testerGetter {
+    public static void main(String[] args) {
+        Persegi persegi = new Persegi();
+        persegi.setSisi(10);
+        System.out.println("Sisi Persegi = " + persegi.getSisi());
+        System.out.println("Keliling Persegi = " + persegi.hitungKeliling());
+        System.out.println("Luas Persegi = " + persegi.hitungLuas());
+        System.out.println();
+        
+        PersegiPanjang persegipanjang = new PersegiPanjang();
+        persegipanjang.setPanjang(5);
+        persegipanjang.setLebar(4);
+        System.out.println("Panjang Persegi Panjang = " + persegipanjang.getPanjang());
+        System.out.println("Lebar Persegi Panjang= " + persegipanjang.getLebar());
+        System.out.println("Keliling Persegi Panjang= " + persegipanjang.hitungKeliling());
+        System.out.println("Luas Persegi Panjang= " + persegipanjang.hitungLuas());
+        System.out.println();
+        
+        Segitiga segitiga = new Segitiga();
+        segitiga.setAlas(9);
+        segitiga.setTinggi(3);
+        System.out.println("Alas segitiga = " + segitiga.getAlas());
+        System.out.println("Tinggi segitiga = " + segitiga.getTinggi());
+        System.out.println("Keliling segitiga= " + segitiga.hitungKeliling());
+        System.out.println("Luas segitiga= " + segitiga.hitungLuas());
+        System.out.println();
+        
+        Lingkaran lingkaran = new Lingkaran();
+        lingkaran.setJari(6);
+        lingkaran.setPi(3.14);
+        System.out.println("Jari-jari lingkaran = " + lingkaran.getJari());
+        System.out.println("Keliling lingkaran = " + lingkaran.hitungKeliling());
+        System.out.println("Luas lingkaran = " + lingkaran.hitungLuas());
+    }
+    
+}
