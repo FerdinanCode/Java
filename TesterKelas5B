@@ -1,0 +1,10 @@
+package kelas5b;
+public class Tester {
+    public static final String Nama_Universitas = "UNIMOR";
+    
+    public static void main(String[] args) {
+        Universitas.jumlahMahasiswa = 1000;
+        System.out.println(Nama_Universitas + "memiliki mahasiswa sebanyak = Univesitas.jumlahMahasiswa" );
+    }
+    }
+
