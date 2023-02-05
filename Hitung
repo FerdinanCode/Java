@@ -1,0 +1,21 @@
+package fedinan11;
+public class Hitung {
+    public static void main(String[] args) {
+        
+    Perulangan1 kelasB = new Perulangan1();
+    kelasB.nilai1 = 15;
+    kelasB.hitungPerulangan ();
+    
+    Perulangan2 kedua = new Perulangan2();
+    kedua.nilai1 = 2;
+    kedua.hitungPerulangan ();
+    
+    Perulangan3 ketiga = new Perulangan3();
+    ketiga.nilai1 = 72;
+    ketiga.hitungPerulangan ();
+    
+    Perulangan4 keempat = new Perulangan4();
+    ketiga.nilai1 = 5;
+    keempat.hitungPerulangan ();
+}
+}
