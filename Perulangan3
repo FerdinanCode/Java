@@ -1,0 +1,13 @@
+public class Perulangan3 {
+    public int nilai1;  
+    public int hitungPerulangan3(){
+        System.out.print( nilai1 + " ");
+        for (int i = 1; i < 6; i++) {
+            int hasil = nilai1 / i;
+            System.out.print( hasil + " ");
+            nilai1 = hasil;
+        }
+        System.out.println();
+        return nilai1;
+    }
+}
