@@ -1,0 +1,16 @@
+public class DeretAngka2 {
+    public static void main(String[] args) {
+        System.out.println("Membuat Deret Angka Penjumlahan 3 Bilangan Pertama");
+        int C = 5;
+        int C1 = 4;
+        int C2 = 2;
+        int count = 13;
+        for (int i = 1; i <= count; i++) {
+            System.out.println(C + " ");
+            int sum = C + C1 + C2;
+            C = C1;
+            C1 = C2;
+            C2 = sum;
+        }
+    }
+}
