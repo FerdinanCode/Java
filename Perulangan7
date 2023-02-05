@@ -1,0 +1,16 @@
+package fedinan11;
+
+public class Perulangan7 {
+public int nilai1;
+    
+    public int hitungPerulangan() {
+        System.out.print(nilai1);
+        
+        for (int i = 1; i <=6 ; i++) {
+            int hasil = (int) (nilai1 + Math.pow(2,i));
+            System.out.print(" " + hasil);
+            nilai1 = hasil;
+        }
+        return nilai1;
+    }
+}
