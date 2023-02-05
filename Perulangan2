@@ -1,0 +1,16 @@
+public class Perulangan2 {
+       public int nilai;
+       public int nilai1;
+    public int hitungPerulangan2(){
+        System.out.print(nilai + " " + nilai1 + " ");
+        for (int i = 0; i < 3; i++) {
+            int hasil = nilai * 2;
+            int hasil1 = nilai1 * 2;
+            System.out.print( hasil + " " + hasil1 + " ");
+            nilai = hasil;
+            nilai1=hasil1;
+        }
+        System.out.println();
+        return nilai;
+        }  
+    }
