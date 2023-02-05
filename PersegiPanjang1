@@ -1,4 +1,4 @@
-public class PersegiPanjang {
+public class PersegiPanjang1 {
     private double panjang;
     private double lebar;
     
