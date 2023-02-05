@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class Ferdinan3 {
+    public static void main(String[] args) {
+        Scanner scr = new Scanner (System.in);
+ 
+        int[] angka = new int[10];
+        String[] jenis = new String[10];
+        int input;
+ 
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Masukan Inputan ke-" + (i + 1) + " : ");
+ 
+            input = scr.nextInt();
+            angka[i] = input;
+ 
+            if (angka[i] % 2 == 0) {
+                jenis[i] = "Genap";
+            } else {
+                jenis[i] = "Ganjil";
+            }
+        }
+ 
+        int nilaiMax = 0;
+        for (int i = 0; i < 10; i++) {
+            if (angka[i] % 2 != 0) {
+ 
+                if (angka[i] > nilaiMax) {
+                    nilaiMax = angka[i];
+                }
+            }
+        }
+ 
+        System.out.println("\nAngka terbesar ganjil adalah " + nilaiMax);
+        for (int i = 0; i < 10; i++) {
+            System.out.println("angka ke-" + (i + 1) + " " + angka[i] + " adalah " + jenis[i]);
+        }
+    }
+}
