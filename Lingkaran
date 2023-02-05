@@ -1,0 +1,24 @@
+public class Lingkaran {
+      private double jari;
+    private double pi;
+    
+    public double getJari(){
+        return jari;
+    }
+    public void setJari(double jari){
+       this.jari = jari;
+    }
+     public double getPi(){
+        return pi;
+    }
+     public void setPi(double pi){
+       this.pi = pi;
+    }
+    public double hitungKeliling(){
+        return 2 * pi * jari;
+    }
+    public double hitungLuas(){
+        return pi * jari * jari ;
+    }
+    
+}
