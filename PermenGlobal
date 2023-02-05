@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kelas5b;
+
+/**
+ *
+ * @author Ferdinan
+ */
+public class PermenGlobal {
+    int jumlahPermen = 10;
+    public void getJumlahPermen () {
+        System.out.println("jumlah permen : " + jumlahPermen);
+    }
+    public void tambahPermen () {
+        jumlahPermen = jumlahPermen + 1;
+        System.out.println("jumlah permen setelah ditambah : " + jumlahPermen);
+    }
+    public static void main(String[] args) {
+        PermenGlobal permenSusu = new PermenGlobal();
+        permenSusu.tambahPermen();
+        permenSusu.getJumlahPermen();
+    }
+    
+}
