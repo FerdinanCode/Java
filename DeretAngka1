@@ -1,0 +1,14 @@
+public class DeretAngka1 {
+    public static void main(String[] args) {
+        System.out.println("Membuat Deret Angka Kelipatan 2");
+        int C = 5;
+        int C1 = 4;
+        int count = 12;
+        for (int i = 1; i <= count; i++) {
+            System.out.println(C + " ");
+            int sum = (C + C1) * 2;
+            C = C1;
+            C1 = sum;
+        }
+    }
+}
