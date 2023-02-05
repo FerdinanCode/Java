@@ -1,0 +1,17 @@
+package fedinan11;
+public class Tester {
+    public static void main(String[] args) {
+        Persegi ferdinan = new Persegi();
+        ferdinan.sisi = 4;
+        System.out.println("Keliling Persegi dengan sisi " + ferdinan.sisi + " = " + ferdinan.hitungKeliling());
+        System.out.println("Luas Persegi dengan sisi " + " = " + ferdinan.hitungLuas());
+        
+        PersegiPanjang kelasB = new PersegiPanjang();
+        kelasB.panjang = 5;
+        kelasB.lebar = 4;
+        System.out.println("Keliling Persegi Panjang dengan panjang " + kelasB.panjang + " dan lebaar " + kelasB.lebar + " = " + kelasB.hitungKeliling());
+        
+        System.out.println("Luas Persegi panjang dengan panjang " + kelasB.panjang + " dan lebar " + kelasB.lebar + " = " + kelasB.hitungLuas());
+    }
+    
+}
