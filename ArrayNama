@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kelas5b;
+
+/**
+ *
+ * @author LAB04-03
+ */
+public class ArrayNama {
+    public static void main(String[] args) {
+        String [] nama = new String[5];
+        nama [0] = "Fe";
+        nama [1] = "Fer";
+        nama [2] = "Ferdi";
+        nama [3] = "Ferdinan";
+        nama [4] = "Ferdinanbria";
+        
+        for (int i = 0; i<5; i++) {
+            System.out.println("Nama Pada Indeks " + i + " : " + nama[i]);
+        }
+    }
+    
+}
