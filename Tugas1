@@ -1,0 +1,23 @@
+package fedinan11;
+import java.util.Scanner;
+public class Tugas1 {
+    public static void main(String[] args) {
+        Persegi ferdinan = new Persegi();
+        Scanner sisi = new Scanner (System.in);
+        System.out.println("Masukkan sisi :");
+        ferdinan.sisi = sisi.nextInt();
+        System.out.println("keliling Persegi dengan sisi" + ferdinan.sisi + "=" + ferdinan.hitungKeliling());
+        System.out.println("Luas Persegi dengan sisi" + ferdinan.sisi + "=" + ferdinan.hitungLuas());
+        
+        PersegiPanjang kelasB = new PersegiPanjang();
+        Scanner panjang = new Scanner (System.in);
+        System.out.println("Masukkan Panjang :");
+        kelasB.panjang = panjang.nextInt();
+        Scanner lebar = new Scanner (System.in);
+        System.out.println("Masukkan Lebar :");
+        kelasB.lebar = lebar.nextInt();
+        
+        System.out.println("Keliling Persegi Panjang dengan panjang" + kelasB.panjang + "dan lebar" + kelasB.lebar + "=" + kelasB.hitungKeliling());
+        System.out.println("Luas Persegi panjang dengan panjang" + kelasB.panjang + "dan lebar" + kelasB.lebar + "=" + kelasB.hitungLuas());
+    }
+}
