@@ -1,0 +1,84 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kelas5b;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ferdinan
+ */
+public class TugasPercabangan {
+    public static void main(String[] args) {
+        System.out.println("Masukkan Angka");
+        
+        Scanner scanner = new Scanner (System.in);
+        
+        System.out.println("Masukkan Nilai 1 : ");
+        int nilai1 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 2 : ");
+        int nilai2 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 3 : ");
+        int nilai3 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 4 : ");
+        int nilai4 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 5 : ");
+        int nilai5 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 6 : ");
+        int nilai6 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 7 : ");
+        int nilai7 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 8 : ");
+        int nilai8 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 9 : ");
+        int nilai9 = scanner.nextInt ();
+        
+        System.out.println("Masukkan Nilai 10 : ");
+        int nilai10 = scanner.nextInt ();
+        
+        int angkaBesar = 0;
+        
+        if (nilai1>angkaBesar) {
+            angkaBesar = nilai1;
+        }
+        if (nilai2>angkaBesar) {
+            angkaBesar = nilai2;
+        }
+        if (nilai3>angkaBesar) {
+            angkaBesar = nilai3;
+        }
+        if (nilai4>angkaBesar) {
+            angkaBesar = nilai4;
+        }
+        if (nilai5>angkaBesar) {
+            angkaBesar = nilai5;
+        }
+        if (nilai6>angkaBesar) {
+            angkaBesar = nilai6;
+        }
+        if (nilai7>angkaBesar) {
+            angkaBesar = nilai7;
+        }
+        if (nilai8>angkaBesar) {
+            angkaBesar = nilai8;
+        }
+        if (nilai9>angkaBesar) {
+            angkaBesar = nilai9;
+        }
+        if (nilai10>angkaBesar) {
+            angkaBesar = nilai10;
+        }
+        System.out.println("Nilai terbesar adalah : " + angkaBesar);
+    }
+    
+}
