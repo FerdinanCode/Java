@@ -1,0 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kelas5b;
+
+/**
+ *
+ * @author LAB04-03
+ */
+public class Kuadrat {
+    public static void main(String[] args) {
+        int bilangan = 12;
+        int hasilKuadrat = bilangan *  bilangan;
+        System.out.println(bilangan + "pangkat 2 sama dengan" + hasilKuadrat);
+    }
+}
